@@ -11,11 +11,9 @@ export default function Alert ({children, type}){
         <Head>
             <title>Second Post</title>
         </Head>
-        <h1 class={styles.headingRc}>
+        <h1 className={styles.headingRc}>
             This is my second post test using sass. 
-            <Link href="//github.com/reececropley">
-                <a target="_blank">Check my Github</a>
-            </Link>
+            <Link href="//github.com/reececropley"><a target="_blank">Check my Github</a></Link>
         </h1>
         <Link href="/">Home</Link>
         <Link href="first-post">First Post</Link>
